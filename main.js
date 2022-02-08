@@ -13,10 +13,6 @@ function removeAnimation(){
 }
 
 function display() {
-    elementP.textContent = getRandomInt(1,6);
+    elementP.textContent = Math.floor(1 + Math.random()*6)
+
 }
-function getRandomInt(min, max) {
-    min = Math.ceil(min);
-    max = Math.floor(max);
-    return Math.floor(Math.random() * (max - min) + min); //The maximum is exclusive and the minimum is inclusive
-  }
