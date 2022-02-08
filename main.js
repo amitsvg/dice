@@ -13,6 +13,6 @@ function removeAnimation(){
 }
 
 function display() {
-    elementP.textContent = Math.floor(1 + Math.random()*6)
+    elementP.textContent = Math.ceil(Math.random()*6)
 
 }
